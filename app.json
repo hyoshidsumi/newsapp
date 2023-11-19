@@ -20,11 +20,30 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#333"
+      },
+      "package": "com.yzumy.news1",
+      "icon": "./assets/splash.png",
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#fff"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "news1ApiKey": "ed6b45e97595410c90500b2cb594c267",
+      "eas": {
+        "projectId": "feeda9c6-154c-42c9-af4f-be99f3344971"
+      },
+      "icon": "./assets/splash.png",
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      }
     }
   }
 }
